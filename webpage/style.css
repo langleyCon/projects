@@ -107,7 +107,7 @@ body {
 .intro-container {
     display: flex;
     background-color: #b3ccff;
-    height: 300px;
+    height: 400px;
     align-items: center;
     flex-direction: column;
 }
@@ -128,8 +128,13 @@ body {
 
 .about-container {
     display: flex;
-    height: 300px;
+    border: 2px solid black;
+    height: 700px;
     
+}
+
+.about-image{
+    max-width: 40%;
 }
 
 .about-image img{
@@ -138,7 +143,25 @@ body {
 }
 
 .about-text {
-    width: 400px;
+    display: flex;
+    border: 2px solid black;
+    flex: 1;
+    flex-direction: column;
+}
+
+.prac-list-container {
+    display: flex;
+    border: 2px solid black;
+
+    align-items: baseline;
+    flex: 1;
+}
+
+.left-list {
+    flex: 1;
+}
+.right-list {
+    flex: 1;
 }
 
 
