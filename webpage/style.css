@@ -1,0 +1,144 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+}
+
+.header-container { 
+    height: 50px;
+}
+
+.office-border {
+    border-top: 2px solid #1a75ff;
+    border-bottom: 2px solid #1a75ff;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.office-name {
+    color: white;
+}
+
+.banner-container {
+    display: flex;
+    background-color: slategray;
+}
+
+.banner-container div {
+    height: 150px;
+    flex: 1;
+}
+
+.quick-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quick-contact p {
+    margin: 0px;
+}
+
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.facebook { 
+    height: 20px;
+    width: 20px;
+}
+
+.facebook:hover {
+    cursor: pointer;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    height: 50px;
+}
+
+.menu-item {
+    background: gray;
+    color: white;
+    border: 1px gray solid;
+    padding: 15px;
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    
+
+}
+
+.menu-item:hover { 
+    background-color: white;
+    color: black;
+}
+
+.intro-container {
+    display: flex;
+    background-color: #b3ccff;
+    height: 300px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro-text {
+    border: 1px solid black;
+    width: 400px;
+}
+
+.intro-text p {
+    font-size: large;
+
+}
+
+.about-title {
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    height: 300px;
+    
+}
+
+.about-image img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.about-text {
+    width: 400px;
+}
+
+
