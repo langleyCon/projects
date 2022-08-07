@@ -95,8 +95,6 @@ body {
     text-align: center;
     cursor: pointer;
     transition-duration: 0.4s;
-    
-
 }
 
 .menu-item:hover { 
@@ -129,6 +127,10 @@ body {
 .about-container {
     display: flex;
     height: 500px;
+    margin: 0px 12.5%;
+    padding-top: 25px;
+    border-top: 1px solid #d9d9d9;
+
 }
 
 .about-image{
@@ -167,4 +169,13 @@ body {
     margin-bottom: 75px;
 }
 
+.education-container {
+    display: flex;
+    margin: 30px 12.5% 0px 12.5%;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
 
+    height: 150px;
+    padding: 20px;
+    
+}
