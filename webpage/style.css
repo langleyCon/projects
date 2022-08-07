@@ -128,9 +128,7 @@ body {
 
 .about-container {
     display: flex;
-    border: 2px solid black;
     height: 500px;
-    
 }
 
 .about-image{
@@ -150,14 +148,8 @@ body {
 
 .prac-list-container {
     display: flex;
+    justify-content: center;
     align-items: baseline;
-    flex: 1;
-}
-
-.left-list {
-    flex: 1;
-}
-.right-list {
     flex: 1;
 }
 
@@ -172,6 +164,7 @@ body {
 .about-para {
     padding-left: 20px;
     margin: 0px;
+    margin-bottom: 75px;
 }
 
 
