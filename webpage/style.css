@@ -129,7 +129,7 @@ body {
 .about-container {
     display: flex;
     border: 2px solid black;
-    height: 700px;
+    height: 500px;
     
 }
 
@@ -144,15 +144,12 @@ body {
 
 .about-text {
     display: flex;
-    border: 2px solid black;
     flex: 1;
     flex-direction: column;
 }
 
 .prac-list-container {
     display: flex;
-    border: 2px solid black;
-
     align-items: baseline;
     flex: 1;
 }
@@ -162,6 +159,19 @@ body {
 }
 .right-list {
     flex: 1;
+}
+
+.prac-title {
+    text-align: center;
+}
+
+.about-name {
+    text-align: center;
+}
+
+.about-para {
+    padding-left: 20px;
+    margin: 0px;
 }
 
 
